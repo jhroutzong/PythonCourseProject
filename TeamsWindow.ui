@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TeamWindow</class>
+ <widget class="QDialog" name="TeamWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>902</width>
+    <height>655</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Team View</string>
+  </property>
+  <widget class="QLineEdit" name="TeamName">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>560</y>
+     <width>191</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="TeamOID">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>600</y>
+     <width>113</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>560</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Team Name:</string>
+   </property>
+   <property name="buddy">
+    <cstring>TeamName</cstring>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>600</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Team OID#:</string>
+   </property>
+   <property name="buddy">
+    <cstring>TeamOID</cstring>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="TeamList">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>11</y>
+     <width>881</width>
+     <height>531</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>546</y>
+     <width>69</width>
+     <height>96</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <widget class="QPushButton" name="SecondAddButton">
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SecondEditButton">
+    <property name="text">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SecondDeleteButton">
+    <property name="text">
+     <string>Delete</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QSplitter" name="splitter_2">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>560</y>
+     <width>81</width>
+     <height>64</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <widget class="QPushButton" name="ImportTeamsButton">
+    <property name="text">
+     <string>Import...</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ExportTeamsButton">
+    <property name="text">
+     <string>Export...</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MemberWindow</class>
+ <widget class="QDialog" name="MemberWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>868</width>
+    <height>675</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Member View</string>
+  </property>
+  <widget class="QLineEdit" name="MemberName">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>580</y>
+     <width>231</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="MemberEmail">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>610</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="MemberOID">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>640</y>
+     <width>113</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>580</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Member Name:</string>
+   </property>
+   <property name="buddy">
+    <cstring>MemberName</cstring>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>610</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Member E-Mail:</string>
+   </property>
+   <property name="buddy">
+    <cstring>MemberEmail</cstring>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>640</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Member OID#:</string>
+   </property>
+   <property name="buddy">
+    <cstring>MemberOID</cstring>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="MemberList">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>11</y>
+     <width>861</width>
+     <height>551</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>570</y>
+     <width>69</width>
+     <height>96</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+   <widget class="QPushButton" name="ThirdAddButton">
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ThirdEditButton">
+    <property name="text">
+     <string>Update</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ThirdDeleteButton">
+    <property name="text">
+     <string>Delete</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
